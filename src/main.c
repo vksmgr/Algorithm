@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "./sorting/mylib/mylib.h"
+#include "./mylib/mylib.h"
 
 
 int main() {
