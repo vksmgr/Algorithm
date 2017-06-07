@@ -8,11 +8,11 @@
 * Library function implemented all sorting mechanisms.
     * Insertion sort.
     
- ###Data structure library
+ ### Data structure library
  
- ####this library include some basic datastructures and it's functionallity
+ #### This library include some basic datastructures and it's functionallity
  
- * ###Stack: 
+ * ### Stack: 
     stack is very simple data structure implemented using dynamic array.
     stack support two function
      * ```int* newStack( int size)``` This function will create stack and initialize it with 0.
