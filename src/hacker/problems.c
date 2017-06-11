@@ -6,12 +6,13 @@
 #include <stdlib.h>
 #include "problems.h"
 #include "../mylib/mylib.h"
+#include "../algorithms/searching/search.h"
 
 
 
 //ATM Que Problem From HakerEarth
 
-#define Max 1000000;
+
 
 int atmQ(){
     int N;
@@ -49,3 +50,16 @@ int markTheAns(){
     }
     return 0;
 }
+
+//Simple Search
+int S_S(){
+    int N;
+    int element;
+    int array[100001];
+    scanf("%d",&N);
+    array_get(array, N);
+    scanf("%d",&element);
+    return linearSerach(&array,N,element)+1;
+}
+
+//int monk and Prisonor of Azkaban

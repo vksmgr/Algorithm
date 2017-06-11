@@ -43,3 +43,5 @@ int pop(int* stack,int* top){
     }
     return 1;
 }
+
+

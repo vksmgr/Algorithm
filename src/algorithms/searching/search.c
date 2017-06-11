@@ -11,8 +11,8 @@
 int linearSerach(int* array, int len, int element){
     for (int i = 0; i < len; i++) {
         if(element == array[i]){
-            return 1;
+            return i;
         }
     }
-    return 0;
+    return -1;
 }
